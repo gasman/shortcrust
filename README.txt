@@ -129,3 +129,25 @@ any errors are thrown as exceptions (of type GLError).
   combined and converted to a polygon mesh for rendering with a shader.
 
   Take a look at the example projects to see how it all fits together.
+
+** Acknowledgements **
+
+* Ben O'Steen - for the documentation and example code for framebuffer-based
+  access to OpenGL ES on the RasPi:
+  http://benosteen.wordpress.com/2012/04/27/using-opengl-es-2-0-on-the-raspberry-pi-without-x-windows/
+* Peter de Rivaz - for the initial work on Python EGL / OpenGL ES bindings for
+  the RasPi, which served as the starting point for this project:
+  https://github.com/peterderivaz/pyopengles
+* Sir Garbagetruck - for pointing me at the above and planting the idea of
+  using Python for RasPi demos
+* Giles Thomas - for the WebGL tutorials that steered me in the right direction
+  with OpenGL ES and indirectly informed the API design
+* Brandon Jones - for the glMatrix Javascript library, various sections of
+  which I've ported to Python with minimal changes:
+  https://github.com/toji/gl-matrix
+* mnstrmnch - for troubleshooting thorny problems with alpha channels
+
+** Author **
+
+Matt Westcott <http://matt.west.co.tt/> - gasman@raww.org
+twitter.com/gasmanic
