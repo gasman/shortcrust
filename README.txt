@@ -129,6 +129,10 @@ any errors are thrown as exceptions (of type GLError).
   combined and converted to a polygon mesh for rendering with a shader.
 
   Take a look at the example projects to see how it all fits together.
+  When running the examples, you'll need to ensure that the shortcrust library
+  is within your PYTHONPATH - one way of doing this is:
+    cd examples
+    PYTHONPATH=$PYTHONPATH:.. ./plasma.py
 
 ** Acknowledgements **
 
